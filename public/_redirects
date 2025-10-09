@@ -1,0 +1,4 @@
+# Cloudflare Pages 反向代理配置
+# 将 /api/* 请求转发到后端 Worker
+
+/api/*  https://api.educhain.cc/api/:splat  200
